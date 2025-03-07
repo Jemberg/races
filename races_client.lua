@@ -64,15 +64,15 @@ local numberedCheckpoint <const> = GetGameBuildNumber() < 2189 and 42 or 45 -- c
 local plainCheckpoint <const> = GetGameBuildNumber() < 2189 and 45 or 48 -- cylinder
 local arrow3Checkpoint <const> = GetGameBuildNumber() < 2189 and 7 or 8 -- cylinder with 3 arrows
 
-local defaultBuyin <const> = 500 -- default race buy-in
-local defaultLaps <const> = 1 -- default number of laps in a race
+local defaultBuyin <const> = 0 -- default race buy-in
+local defaultLaps <const> = 3 -- default number of laps in a race
 local defaultTimeout <const> = 120 -- default DNF timeout
 local defaultAllowAI <const> = "no" -- default allow AI value
 local defaultRecur <const> = "yes" -- default random vehicle race recur value
 local defaultOrder <const> = "no" -- default random vehicle race order value
-local defaultDelay <const> = 30 -- default race start delay
+local defaultDelay <const> = 5 -- default race start delay
 local defaultModel <const> = "adder" -- default spawned vehicle model
-local defaultRadius <const> = 5.0 -- default waypoint radius
+local defaultRadius <const> = 10.0 -- default waypoint radius
 
 local minDelay <const> = 5 -- minimum race start delay
 
